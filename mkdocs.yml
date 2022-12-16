@@ -1,0 +1,28 @@
+site_name: Galaxygine Documentation
+theme: readthedocs
+markdown_extensions:
+    - tables
+    - def_list
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+nav:
+    - Home: index.md
+    - Getting Started: getting_started.md
+    - Engine:
+          - Galaxygine:
+                - Core: engine/galaxygine/core.md
+                - Draw: engine/galaxygine/draw.md
+                - InputHandler: engine/galaxygine/input_handler.md
+                - Sound: engine/galaxygine/sound.md
+          - Renderer:
+                - Renderer: engine/renderer/renderer.md
+                - RenderObject: engine/renderer/renderObject.md
+                - Other RenderObjects: engine/renderer/renderObjectOther.md
+          - Utils:
+                - Vector2: engine/utils/vector2.md
+                - Settings: engine/utils/settings.md
+                - Color: engine/utils/color.md
+    - About:
+          - Contributions: about/contributions.md
+          - License: about/license.md
