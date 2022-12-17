@@ -6,11 +6,11 @@ This file contains the InputHandler methods of Galaxygine, from detecting keypre
 
 The methods avainable are:
 
--   getKeyPressArray(): Array<string>
--   isKeyPressed(key): boolean
--   isAnyKeyPressed(): boolean
--   isKeyArrayPressed(keyArray): boolean
--   isKeyActionPressed(actionID): boolean
+-   [getKeyPressArray(): Array<string>](#getkeypressarray-array)
+-   [isKeyPressed(key): boolean](#iskeypressedkey-boolean)
+-   [isAnyKeyPressed(): boolean](#isanykeypressed-boolean)
+-   [isKeyArrayPressed(keyArray): boolean](#iskeyarraypressedkeyarray-boolean)
+-   [isKeyActionPressed(actionID): boolean](#iskeyactionpressedactionid-boolean)
 
 ### getKeyPressArray(): Array<string>
 
