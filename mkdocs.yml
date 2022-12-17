@@ -1,11 +1,34 @@
 site_name: Galaxygine Documentation
-theme: readthedocs
+theme:
+    name: material
+    features:
+        - navigation.top
+    palette:
+        # Dark Mode
+        - scheme: slate
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
+        # Light Mode
+        - scheme: default
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+
+repo_url: https://github.com/GalaxyGamingBoy/Galaxygine
+
 markdown_extensions:
     - tables
     - def_list
     - admonition
     - pymdownx.details
     - pymdownx.superfences
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
 nav:
     - Home: index.md
     - Getting Started: getting_started.md
@@ -23,6 +46,8 @@ nav:
                 - Vector2: engine/utils/vector2.md
                 - Settings: engine/utils/settings.md
                 - Color: engine/utils/color.md
+    - Resouces:
+          - keyAction: res/keyAction.md
     - About:
           - Contributions: about/contributions.md
           - License: about/license.md
