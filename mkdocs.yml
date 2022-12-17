@@ -48,7 +48,8 @@ nav:
                 - Settings: engine/utils/settings.md
                 - Color: engine/utils/color.md
     - Resouces:
-          - keyAction: res/keyAction.md
+          - Resources: res/resources.md
+          - keyActions: res/keyAction.md
     - About:
           - Contributions: about/contributions.md
           - License: about/license.md
