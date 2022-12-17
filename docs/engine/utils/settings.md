@@ -1,4 +1,4 @@
-# Vector2
+# Settings
 
 This file contains the Settings of Galaxygine.
 

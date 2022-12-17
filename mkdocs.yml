@@ -34,6 +34,7 @@ nav:
     - Getting Started: getting_started.md
     - Engine:
           - Galaxygine:
+                - Galaxygine: engine/galaxygine.md
                 - Core: engine/galaxygine/core.md
                 - Draw: engine/galaxygine/draw.md
                 - InputHandler: engine/galaxygine/input_handler.md
