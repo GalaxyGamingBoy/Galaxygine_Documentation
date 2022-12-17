@@ -1,6 +1,6 @@
 # Core
 
-This file contains core methods of Galaxygine, from the initialization to touchscreen checking.
+This file contains the core methods of Galaxygine, from the initialization to touchscreen checking.
 
 ## Methods
 
@@ -27,11 +27,11 @@ This function initializes Galaxygine by creating a canvas on the element with th
 ### getScreenSize(): Vector2
 
 | Parameter | Parameter Type | Default | Usage |
-|-----------|----------------|---------|-------|
+| --------- | -------------- | ------- | ----- |
 | -         | -              | -       | -     |
 
 | Return Value | Return Type | Usage                  |
-|--------------|-------------|------------------------|
+| ------------ | ----------- | ---------------------- |
 | windowSize   | Vector2     | The size of the window |
 
 This function return the width and the height of the browser window.
@@ -39,11 +39,11 @@ This function return the width and the height of the browser window.
 ### hasTouchscreen(): Boolean
 
 | Parameter | Parameter Type | Default | Usage |
-|-----------|----------------|---------|-------|
+| --------- | -------------- | ------- | ----- |
 | -         | -              | -       | -     |
 
-| Return Value     | Return Type | Usage                                        |
-|------------------|-------------|----------------------------------------------|
-| hasTouchscreen   | Boolean     | Does the device has a touchscreen connected? |
+| Return Value   | Return Type | Usage                                        |
+| -------------- | ----------- | -------------------------------------------- |
+| hasTouchscreen | Boolean     | Does the device has a touchscreen connected? |
 
 This function return a boolean indicating if the device has a touchscreen connected.

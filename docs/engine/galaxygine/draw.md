@@ -1,6 +1,6 @@
 # Draw
 
-This file contains core methods of Galaxygine, from the initialization to touchscreen checking.
+This file contains the draw methods of Galaxygine, from Rendering a rectangle to rendering a sprite.
 
 ## Methods
 
