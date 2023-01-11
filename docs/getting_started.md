@@ -9,8 +9,8 @@ There are a few ways to install Galaxygine.
 You can create a Galaxygine project using a python script.
 
 #### Where to find it
-Said script can be found [here](https://gist.githubusercontent.com/GalaxyGamingBoy/02f34126b1a5ddf202014119af1600fa/raw/makeGalaxygineTemplate.py).
-And can be downloaded with this command: `wget https://gist.githubusercontent.com/GalaxyGamingBoy/02f34126b1a5ddf202014119af1600fa/raw/makeGalaxygineTemplate.py`.
+To create a project using the Galaxygine template, download the makeGalaxygineTemplate.py file from the repository or release then run:
+chmod a+x ./makeGalaxygineTemplate.py && ./makeGalaxygineTemplate.py <project_name>
 
 #### Usage
 The script can be run like this: `./makeGalaxygineTemplate.py < PROJECT NAME >`
